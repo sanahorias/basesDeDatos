@@ -1,0 +1,15 @@
+version: '3'
+services:
+  servicio:
+    container_name: servicio-mysql
+    image: mysql
+    command: --default-authentication-plugin=caching_sha2_password
+    ports:
+      - "3307:3306"
+    volumes:
+      - ./mysql:/docker-entrypoint-initdb.d
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: PROYECTOS
+      MYSQL_USER: victor
+      MYSQL_PASSWORD: portemanuel
