@@ -1,0 +1,7 @@
+version: '3'
+services:
+  servicio:
+    container_name: contenedor-ubuntu
+    build: ./conf_mysql
+    ports:
+      - "3306:3306"
