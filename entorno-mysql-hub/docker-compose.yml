@@ -11,5 +11,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: PROYECTOS
-      MYSQL_USER: victor
-      MYSQL_PASSWORD: portemanuel
+      MYSQL_USER: david
+      MYSQL_PASSWORD: david123
+    entrypoint: tail -f /dev/null  
+      
