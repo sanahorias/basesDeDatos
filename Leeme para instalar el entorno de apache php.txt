@@ -1,0 +1,4 @@
+1; Desde la consola entra a la carpeta entorno-php-apache
+2; Ejecuta el comando docker-compose build y si no funcionara el comando docker-compose up
+3; Si todo salio bien ve a tu navegador y pon la url: localhost:8080
+4; Dentro de la carpeta data puedes agregar archivos html y php para verlos desde el navegador
